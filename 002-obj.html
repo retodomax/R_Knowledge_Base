@@ -166,8 +166,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#inspect-object" id="toc-inspect-object" class="nav-link active" data-scroll-target="#inspect-object"><span class="header-section-number">1.1</span> Inspect object</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/retodomax/R_Knowledge_Base/edit/main/002-obj.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/retodomax/R_Knowledge_Base/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -303,8 +309,24 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>— John Chambers</p>
 </blockquote>
+<section id="inspect-object" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="inspect-object"><span class="header-section-number">1.1</span> Inspect object</h3>
+<ul>
+<li><code>str()</code>: struction of object, get unsystematic overview</li>
+<li><code>typeof()</code>: “low-level” type of an object</li>
+<li><code>mode()</code>: storage mode of an object
+<ul>
+<li>Determines how an object is stored</li>
+</ul></li>
+<li><code>class()</code>: “high-level” class of object
+<ul>
+<li>Determines what method is applied when passed to generic functions</li>
+</ul></li>
+</ul>
+<p><code>typeof()</code> and <code>mode()</code> are almost the same (at the same level) except that they use different names</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -746,4 +768,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/retodomax/R_Knowledge_Base/edit/main/002-obj.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/retodomax/R_Knowledge_Base/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/retodomax/R_Knowledge_Base/edit/main/002-obj.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/retodomax/R_Knowledge_Base/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
