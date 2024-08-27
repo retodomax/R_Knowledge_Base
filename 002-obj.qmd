@@ -7,3 +7,14 @@
 > * Everything that happens is a function call.
 >
 > --- John Chambers
+
+## Inspect object
+
+* `str()`: struction of object, get unsystematic overview
+* `typeof()`: "low-level" type of an object
+* `mode()`: storage mode of an object
+    - Determines how an object is stored
+* `class()`: "high-level" class of object
+    - Determines what method is applied when passed to generic functions
+
+`typeof()` and `mode()` are almost the same (at the same level) except that they use different names
