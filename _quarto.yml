@@ -17,6 +17,8 @@ book:
     - index.qmd
     - 001-toc.qmd
     - part: R Language
+      chapters: 
+        - 002-obj.qmd
     - part: R Basics
     - part: R Programming
     - part: R Output
