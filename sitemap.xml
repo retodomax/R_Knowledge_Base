@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://retodomax.github.io/R_Knowledge_Base/index.html</loc>
-    <lastmod>2024-08-27T05:47:00.261Z</lastmod>
+    <lastmod>2024-08-27T05:51:22.993Z</lastmod>
   </url>
   <url>
     <loc>https://retodomax.github.io/R_Knowledge_Base/001-toc.html</loc>
-    <lastmod>2024-08-27T05:47:00.261Z</lastmod>
+    <lastmod>2024-08-27T05:51:22.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://retodomax.github.io/R_Knowledge_Base/002-obj.html</loc>
+    <lastmod>2024-08-27T05:51:22.993Z</lastmod>
   </url>
 </urlset>
